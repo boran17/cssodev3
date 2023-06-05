@@ -1,0 +1,69 @@
+body {
+    margin: 0px auto;
+}
+#secenek {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-right: 30px;
+    margin-top: 14px;
+  }
+  #merkez {
+    margin-top: 90px;
+  }
+  
+  #merkez #logo {
+    text-align: center;
+  }
+  footer {
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 110px;
+  }
+  
+  footer h4 {
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 15px;
+    line-height: 10px;
+    font-weight: 200;
+    padding-left: 29px;
+    border: 1px solid #eee;
+  }
+  
+  footer a {
+    color: #5f6368;
+    display: inline-block;
+    padding: 12px 11px;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  footer .altbilgi {
+    border-top: 1px solid #ddd;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  footer .altbilgi .altbilgi1 {
+    padding-left: 18px;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  
+  footer .altbilgi .altbilgi2 {
+    padding-right: 18px;
+  }
